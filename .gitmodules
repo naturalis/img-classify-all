@@ -19,3 +19,6 @@
 [submodule "nbclassify-data"]
 	path = nbclassify-data
 	url = https://github.com/naturalis/nbclassify-data
+[submodule "nbclassify"]
+	path = nbclassify
+	url = git@github.com:naturalis/nbclassify.git
