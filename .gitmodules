@@ -1,0 +1,21 @@
+[submodule "imgpheno"]
+	path = imgpheno
+	url = https://github.com/naturalis/imgpheno
+[submodule "puppet-orchid"]
+	path = puppet-orchid
+	url = https://github.com/naturalis/puppet-orchid
+[submodule "orchid-report"]
+	path = orchid-report
+	url = https://github.com/naturalis/orchid-report
+[submodule "orchid-presentation"]
+	path = orchid-presentation
+	url = https://github.com/figure002/orchid-presentation
+[submodule "img-classify"]
+	path = img-classify
+	url = https://github.com/rvosa/img-classify
+[submodule "ai-fann-evolving"]
+	path = ai-fann-evolving
+	url = https://github.com/naturalis/ai-fann-evolving
+[submodule "nbclassify-data"]
+	path = nbclassify-data
+	url = https://github.com/naturalis/nbclassify-data
