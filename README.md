@@ -3,10 +3,9 @@ Aggregator repository for projects related to image classification. Contains rel
 
 ![Project structure](structure.png)
 
-Explanation of submodules
--------------------------
+## Explanation of submodules
 
-## Currently under active development
+### Currently under active development
 
 The following submodules are currently (February 2016) under active development and/or
 are expected to receive additional commits
@@ -18,7 +17,7 @@ are expected to receive additional commits
 - [nbclassify-data](https://github.com/naturalis/nbclassify-data) - data repository for
   image metadata, extracted image features, and FANN neural networks.
 
-## Potentially useful but not under active development
+### Potentially useful but not under active development
 
 The following submodules contain code that is potentially useful at time of writing (February
 2016) but is not intended to undergo additional development.
@@ -29,7 +28,7 @@ The following submodules contain code that is potentially useful at time of writ
 - [puppet-orchid](https://github.com/naturalis/puppet-orchid) - provisioninf scripts to configure
   a web server for OrchID web application. Not under active development, ignore.
 
-## Only here for archival purposes
+### Only here for archival purposes
 
 The following submodules are here for archival purposes because they were presentational
 milestones earlier in the project.
