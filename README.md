@@ -16,14 +16,22 @@ work that has been done (led by @rvosa) to do this in such a way that:
 - the framework can be presented in a user-friendly way, which includes appropriate 
   presentation and user experience on mobile platforms.
 
-## Project structure
+## Project resources
 
-The current repository aggregates projects related to image classification. Contains 
-relevant [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+The current repository aggregates 
+[git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) of projects related 
+to image classification. In addition there is:
+
+- a [flickr account](https://www.flickr.com/photos/113733456@N06/) where we collect reference
+  images, organize them, and tag them with their taxonomic classification and additional 
+  metadata.
+- a [google drive folder](https://drive.google.com/drive/u/0/folders/0B8uRR3rysMcscjdtR0s0bEF2bmc)
+  where we have privileged project metadata such as reference materials, progress reports, 
+  and so on.
 
 ![Project structure](structure.png)
 
-## Explanation of submodules
+## Explanation of git submodules
 
 ### Currently under active development
 
