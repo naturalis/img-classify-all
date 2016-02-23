@@ -1,24 +1,24 @@
-[submodule "imgpheno"]
-	path = imgpheno
-	url = git@github.com:naturalis/imgpheno
 [submodule "puppet-orchid"]
 	path = puppet-orchid
-	url = git@github.com:naturalis/puppet-orchid
+	url = git@github.com:naturalis/puppet-orchid.git
 [submodule "orchid-report"]
 	path = orchid-report
-	url = git@github.com:naturalis/orchid-report
+	url = git@github.com:naturalis/orchid-report.git
 [submodule "orchid-presentation"]
 	path = orchid-presentation
-	url = git@github.com:figure002/orchid-presentation
+	url = git@github.com:figure002/orchid-presentation.git
 [submodule "img-classify"]
 	path = img-classify
-	url = git@github.com:rvosa/img-classify
+	url = git@github.com:rvosa/img-classify.git
 [submodule "ai-fann-evolving"]
 	path = ai-fann-evolving
-	url = git@github.com:naturalis/ai-fann-evolving
+	url = git@github.com:naturalis/ai-fann-evolving.git
 [submodule "nbclassify-data"]
 	path = nbclassify-data
-	url = git@github.com:naturalis/nbclassify-data
+	url = git@github.com:naturalis/nbclassify-data.git
 [submodule "nbclassify"]
 	path = nbclassify
 	url = git@github.com:naturalis/nbclassify.git
+[submodule "imgpheno"]
+	path = imgpheno
+	url = git@github.com:naturalis/imgpheno.git
