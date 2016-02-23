@@ -31,7 +31,7 @@ to image classification. In addition there is:
 
 ![Project structure](structure.png)
 
-## Explanation of git submodules
+## Explanation of [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
 ### Currently under active development
 
