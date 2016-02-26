@@ -3,17 +3,17 @@
 Naturalis Biodiversity Center has an ongoing interest in the development of methods for
 automated image recognition and taxonomic classification. This repository aggregates the
 work that has been done (led by @rvosa) to do this in such a way that:
-- a generic framework develops that can be applied to a variety of different cases. So
+- A generic framework develops that can be applied to a variety of different cases. So
   far these consist of the classification of slipper orchids, and of Javanese butterflies.
   However, other cases ought to be possible as well.
-- no specific assumptions about, for example, landmarks or other prior knowledge about
+- No specific assumptions about, for example, landmarks or other prior knowledge about
   morphology are necessary. Hence image features should be quite generic, although we
   should be able to choose among generic features to select the ones that perform best
   on any given case.
-- the taxonomic classification can be approximated if not fully determined. For example,
+- The taxonomic classification can be approximated if not fully determined. For example,
   it would be useful if an image could at least be classified to the genus level if not
   the species.
-- the framework can be presented in a user-friendly way, which includes appropriate 
+- The framework can be presented in a user-friendly way, which includes appropriate 
   presentation and user experience on mobile platforms.
 
 ## Project resources
@@ -53,7 +53,7 @@ The following submodules contain code that is potentially useful at time of writ
 - [ai-fann-evolving](https://github.com/naturalis/ai-fann-evolving) - a genetic algorithm that
   evolves optimal parameterization of ANNs. Written in Perl, as `AI::FANN::Evolving`. Not under 
   active development, ignore.
-- [puppet-orchid](https://github.com/naturalis/puppet-orchid) - provisioninf scripts to configure
+- [puppet-orchid](https://github.com/naturalis/puppet-orchid) - provisioning scripts to configure
   a web server for OrchID web application. Not under active development, ignore.
 
 ### Only here for archival purposes
