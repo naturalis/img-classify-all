@@ -28,10 +28,10 @@ user. In the case of orchids, three chained neural networks are used:
    presented in the second column in the results table.
 2. Chained to the results of the genus identification, secondary neural networks identify 
    the section. This is a taxonomic level only in botany, in other groups (e.g. 
-   butterflies) this is omitted. The results of these neural networks, here 
-   _Micropetalum_, are shown in the third column.
+   butterflies) this is omitted or replaced by, e.g. Tribus. This is configurable. The 
+   results of these neural networks, here _Micropetalum_, are shown in the third column.
 3. Chained to the results of the section identification, tertiary neural networks 
-   identify the species, here _Phragmipedium besseae_.
+   identify the species, here _Phragmipedium besseae_, in the fourth column.
 4. The success of the returned species match is expressed as mean square error (MSE) in
    the final column.
 
