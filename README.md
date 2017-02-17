@@ -25,7 +25,7 @@ a results listing page for an attempt to identify an orchid from an image upload
 user. In the case of orchids, three chained neural networks are used:
 
 1. The first network attempts to identify the most probable genus, here _Phragmipedium_, 
-   results of which are presented in the **Genus** column in the results table.
+   results of which are presented in the **`Genus`** column in the results table.
 2. Chained to the results of the genus identification, secondary neural networks identify 
    the most probably section with the identified genus. Section is a taxonomic level only 
    in botany, in other groups (e.g. butterflies) this is omitted or replaced by, e.g. 
