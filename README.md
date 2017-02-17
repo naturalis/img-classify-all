@@ -5,7 +5,7 @@ automated image recognition and taxonomic classification. This repository aggreg
 work that has been done (led by @rvosa) to do this in such a way that:
 - A generic framework develops that can be applied to a variety of different cases. So
   far these consist of the classification of slipper orchids, and of Javanese butterflies.
-  However, other cases ought to be possible as well.
+  A pilot study to apply the same technology to Culicid mosquitoes is in progress.
 - No specific assumptions about, for example, landmarks or other prior knowledge about
   morphology are necessary. Hence image features should be quite generic, although we
   should be able to choose among generic features to select the ones that perform best
@@ -24,10 +24,10 @@ to image classification. In addition there is:
 
 - a [flickr account](https://www.flickr.com/photos/113733456@N06/) where we collect reference
   images, organize them, and tag them with their taxonomic classification and additional 
-  metadata.
+  metadata. This is currently password protected as some (orchid) images are copyrighted.
 - a [google drive folder](https://drive.google.com/drive/u/0/folders/0B8uRR3rysMcscjdtR0s0bEF2bmc)
   where we have privileged project metadata such as reference materials, progress reports, 
-  and so on.
+  and so on. This is password protected as it includes privacy-sensitive (student) information.
 
 ![Project structure](structure.png)
 
@@ -35,7 +35,7 @@ to image classification. In addition there is:
 
 ### Currently under active development
 
-The following submodules are currently (February 2016) under active development and/or
+The following submodules are currently (February 2017) under active development and/or
 are expected to receive additional commits
 
 - [imgpheno](https://github.com/naturalis/imgpheno) - general purpose python library for 
@@ -48,7 +48,7 @@ are expected to receive additional commits
 ### Potentially useful but not under active development
 
 The following submodules contain code that is potentially useful at time of writing (February
-2016) but is not intended to undergo additional development.
+2017) but is not intended to undergo additional development.
 
 - [ai-fann-evolving](https://github.com/naturalis/ai-fann-evolving) - a genetic algorithm that
   evolves optimal parameterization of ANNs. Written in Perl, as `AI::FANN::Evolving`. Not under 
