@@ -32,12 +32,11 @@ user. In the case of orchids, three chained neural networks are used:
    results of these neural networks, here _Micropetalum_, are shown in the third column.
 3. Chained to the results of the section identification, tertiary neural networks 
    identify the species, here _Phragmipedium besseae_, in the fourth column.
-4. The success of the returned species match is expressed as mean square error (MSE) in
-   the final column.
 
-When the user clicks on a species name, additional information about that species is
-fetched from the [Encyclopedia of Life (EOL)](http://eol.org), which is inserted in a
-panel below the results listing.
+The success of the returned species match is expressed as mean square error (MSE) in the 
+final column. When the user clicks on a species name, additional information about that 
+species is fetched from the [Encyclopedia of Life (EOL)](http://eol.org), which is inserted 
+in a panel below the results listing.
 
 (In this view, the UI is optimized for a desktop screen. Depending on the user 
 agent, an alternate view for mobile screens consists of a single column page, i.e. 
