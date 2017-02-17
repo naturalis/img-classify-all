@@ -24,17 +24,18 @@ The image above demonstrates most of the functionality of the platform thus far.
 a results listing page for an attempt to identify an orchid from an image uploaded by the
 user. In the case of orchids, three chained neural networks are used:
 
-1. To identify the most probably genus, here _Phragmipedium_, results of which are 
-   presented in the second column in the results table.
+1. The first network attempts to identify the most probable genus, here _Phragmipedium_, 
+   results of which are presented in the **Genus** column in the results table.
 2. Chained to the results of the genus identification, secondary neural networks identify 
-   the section. This is a taxonomic level only in botany, in other groups (e.g. 
-   butterflies) this is omitted or replaced by, e.g. Tribus. This is configurable. The 
-   results of these neural networks, here _Micropetalum_, are shown in the third column.
+   the most probably section with the identified genus. Section is a taxonomic level only 
+   in botany, in other groups (e.g. butterflies) this is omitted or replaced by, e.g. 
+   Tribus. These levels are configurable. The results returned by these neural networks, 
+   here _Micropetalum_, are shown in the **Section** column.
 3. Chained to the results of the section identification, tertiary neural networks 
-   identify the species, here _Phragmipedium besseae_, in the fourth column.
+   identify the species, here _Phragmipedium besseae_, in the **Species** column.
 
-The success of the returned species match is expressed as mean square error (MSE) in the 
-final column. When the user clicks on a species name, additional information about that 
+The success of the returned species match is expressed as mean square error (**MSE**) in 
+the final column. When the user clicks on a species name, additional information about that 
 species is fetched from the [Encyclopedia of Life (EOL)](http://eol.org), which is inserted 
 in a panel below the results listing.
 
