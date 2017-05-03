@@ -73,6 +73,8 @@ are expected to receive additional commits
   includes interaction with Flickr, with ANNs, and OrchID web application
 - [nbclassify-data](https://github.com/naturalis/nbclassify-data) - data repository for
   image metadata, extracted image features, and FANN neural networks.
+- [puppet-orchid](https://github.com/naturalis/puppet-orchid) - provisioning scripts to configure
+  a web server for OrchID web application.
 
 ### Potentially useful but not under active development
 
@@ -82,8 +84,6 @@ The following submodules contain code that is potentially useful at time of writ
 - [ai-fann-evolving](https://github.com/naturalis/ai-fann-evolving) - a genetic algorithm that
   evolves optimal parameterization of ANNs. Written in Perl, as `AI::FANN::Evolving`. Not under 
   active development, ignore.
-- [puppet-orchid](https://github.com/naturalis/puppet-orchid) - provisioning scripts to configure
-  a web server for OrchID web application. Not under active development, ignore.
 
 ### Only here for archival purposes
 
